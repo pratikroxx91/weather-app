@@ -1,0 +1,110 @@
+h1 {
+    font-family: "Wellfleet", serif;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+
+.myCard {
+    font-family: "Funnel Sans", sans-serif;
+    opacity: 0.7;
+    min-height: 400px;
+    max-width: 500px;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.myCard.clouds {
+    background-image: linear-gradient(to bottom, #d7d2cc, #304352);
+}
+
+.myCard.rain {
+    background: linear-gradient(135deg, #667db6, #0082c8, #0082c8, #667db6);
+}
+
+.myCard.haze {
+    background: linear-gradient(to bottom, #f0c27b, #4b1248);
+}
+
+.myCard.clear {
+    background: linear-gradient(to bottom, #f5cd4a, #e7e7e7);
+}
+
+.myCard.snow {
+    background: linear-gradient(to bottom, #e6dada, #274046);
+}
+
+.myCard.mist {
+    background: linear-gradient(to bottom, #d7d2cc, #304352);
+}
+
+
+.input {
+    min-height: 40px;
+    min-width: 0;
+}
+
+form.d-flex {
+    width: 90%;
+    max-width: 480px;
+}
+
+.myCon {
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.myCon.default {
+    background-image: url("./assets/default.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.myCon.snow {
+    background-image: url("./assets/snow.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.myCon.clouds {
+    background-image: url("./assets/cloudy.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.myCon.rain {
+    background-image: url("./assets/rain.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.myCon.haze {
+    background-image: url("./assets/haze.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.myCon.clear {
+    background-image: url("./assets/clear.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.myCon.mist {
+    background-image: url("./assets/mist.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.textColor {
+    color: rgb(12, 12, 12);
+    font-size: 18px;
+    font-weight: 600;
+}
