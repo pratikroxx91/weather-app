@@ -62,43 +62,43 @@ form.d-flex {
 }
 
 .myCon.default {
-    background-image: url("./assets/default.webp");
+    background-image: url("/assets/default.webp");
     background-size: cover;
     background-position: center;
 }
 
 .myCon.snow {
-    background-image: url("./assets/snow.jpeg");
+    background-image: url("/assets/snow.jpeg");
     background-size: cover;
     background-position: center;
 }
 
 .myCon.clouds {
-    background-image: url("./assets/cloudy.jpg");
+    background-image: url("/assets/cloudy.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .myCon.rain {
-    background-image: url("./assets/rain.jpg");
+    background-image: url("/assets/rain.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .myCon.haze {
-    background-image: url("./assets/haze.jpg");
+    background-image: url("/assets/haze.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .myCon.clear {
-    background-image: url("./assets/clear.jpg");
+    background-image: url("/assets/clear.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .myCon.mist {
-    background-image: url("./assets/mist.jpg");
+    background-image: url("/assets/mist.jpg");
     background-size: cover;
     background-position: center;
 }
